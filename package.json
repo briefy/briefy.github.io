@@ -1,0 +1,25 @@
+{
+  "name": "briefy.github.io",
+  "version": "1.0.0",
+  "description": "briefy's blog site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briefy/briefy.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "briefy",
+    "fe",
+    "front-end"
+  ],
+  "author": "briefy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briefy/briefy.github.io/issues"
+  },
+  "homepage": "https://github.com/briefy/briefy.github.io#readme"
+}
