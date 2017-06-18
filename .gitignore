@@ -4,6 +4,9 @@ scss-lint-report.xml
 # Folders to ignore
 _site
 .npm
+_site
+.sass-cache
+.jekyll-metadata
 node_modules
 
 # Files to ignore
