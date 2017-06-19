@@ -1,7 +1,9 @@
 ### To be done
 - [ ] add web analytics
 
-
+### Blog to be done
+- [ ] [microdata](http://diveinto.html5doctor.com/extensibility.html)
+ 
 
 
 
