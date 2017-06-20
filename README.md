@@ -3,6 +3,7 @@
 
 ### Blog to be done
 - [ ] [microdata](http://diveinto.html5doctor.com/extensibility.html)
+- [ ] regular expression
  
 
 
