@@ -5,6 +5,7 @@
 - [ ] [microdata](http://diveinto.html5doctor.com/extensibility.html)
 - [ ] regular expression
 - [ ] [keep translating the usage of chrome here](https://developers.google.com/web/updates/2017/04/devtools-release-notes)
+- [ ] [translate this](http://2ality.com/2016/10/rest-spread-properties.html#spread-defines-properties-objectassign-sets-them)
  
 
 
