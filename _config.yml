@@ -31,3 +31,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+defaults:
+  - scrope:
+      path: "assets/img"
+    values:
+      image: true
