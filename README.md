@@ -6,8 +6,9 @@
 - [ ] regular expression
 - [ ] [keep translating the usage of chrome here](https://developers.google.com/web/updates/2017/04/devtools-release-notes)
 - [ ] [translate this](http://2ality.com/2016/10/rest-spread-properties.html#spread-defines-properties-objectassign-sets-them)
-- [Handling Events in React 101](https://appendto.com/2017/01/react-events-101/)
-- [multifactor-authentication-in-your-react-apps](https://scotch.io/tutorials/multifactor-authentication-in-your-react-apps?utm_source=reactnl&utm_medium=medium)
+- [ ] [Handling Events in React 101](https://appendto.com/2017/01/react-events-101/)
+- [ ] [multifactor-authentication-in-your-react-apps](https://scotch.io/tutorials/multifactor-authentication-in-your-react-apps?utm_source=reactnl&utm_medium=medium)
+- [ ] [usage of common npm pakages](https://github.com/briefy/notes/issues/9)
 
 
 
