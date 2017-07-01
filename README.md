@@ -24,9 +24,16 @@ if encounter any dependency problem, use
 if any EACCESS error ocurrs,  
 `sudo chown $USER /path/to/be/owner/changed`
 
-install **ruby** with the commands below  
+install **ruby** with the commands below  .
 `sudo apt-get install ruby`  
 `sudo apt-get install ruby-dev `
 
 localhost running  
 `bundle exec jekyll serve --watch`
+
+
+### rules
+There are three main catergories now.  
+1. trans,  it means a blog translated from engilish.
+2. chinese, an original blog written in my own tongue.
+3. english, an original blog wriiten in my second language.
