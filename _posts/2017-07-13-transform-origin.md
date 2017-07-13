@@ -17,8 +17,10 @@ transform-origin: x-axis y-axis z-axis|initial|inherit;
 default value:
 
 ```css
-50% 50% 0
+50% 50% 0 /* percent is about the non-scaled size,so as to say dom-flow size */
 ```
+
+
 
 About was the basic usage, and we have to notice that `transform-origin`
 can be animated, so we can take advantage of `transform-origin` to indicate
