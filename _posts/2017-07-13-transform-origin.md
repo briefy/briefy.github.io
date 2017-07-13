@@ -22,7 +22,7 @@ default value:
 
 About was the basic usage, and we have to notice that `transform-origin`
 can be animated, so we can take advantage of `transform-origin` to indicate
-the trend movement direction of an element.
+the trend of a movement direction of an element.
 
 example below:
 > if we use `scale(1,1)`, we can not see the movement.
