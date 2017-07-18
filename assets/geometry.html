@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>DOM geometry</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      border: 10px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+    }
+
+    .outer {
+      width: 300px;
+      height: 300px;
+      border: 10px solid lightseagreen;
+      overflow: scroll;
+    }
+
+    .inner {
+      width: 600px;
+      height: 900px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="outer">
+    <div class="inner">inner</div>
+  </div>
+</body>
+<script>
+  var prefix = ['client', 'offset', 'scroll'];
+  var suffix = ['Width', 'Height', 'Left', 'Top'];
+
+  var eles = {
+    html: document.documentElement,
+    body: document.body,
+    outer: document.querySelector('.outer')
+  }
+
+  prefix.forEach(function (p) {
+    suffix.forEach(function (s) {
+      Object.keys(eles).forEach(function (ele) {
+        let prop = p + s;
+        console.log(
+          ele + '.' + prop + ':  ' +
+          eles[ele][prop] +
+          '\n'
+        )
+      })
+    })
+  })
+
+</script>
+
+</html>
