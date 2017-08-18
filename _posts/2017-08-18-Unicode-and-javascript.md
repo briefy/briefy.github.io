@@ -108,9 +108,6 @@ Planes 1–16 are called supplementary planes or astral planes
 **UTF-16** 是一种使用16为编码单元的编码方式，需要两个编码单元来表示一个编码点。
 BMP块的编码点可以用一个编码单元来表示，其他的块的编码点需要两个编码单元来表示。
 
-### TODO: 分析一下具体的编码策略，比如UTF-16，在计算机里是怎么存储的，怎么容错的。
-
-
 ## Javascript源码和Unicode
 
 js用两种方法来处理Unicode编码的源代码：
@@ -183,7 +180,6 @@ js解析器将js源码看作是一系列UTF-16的编码单元。
 
 在nodejs里，可以被修复，比如[punycode.js](https://github.com/bestiejs/punycode.js)。
 
-**TODO: study punnycode**
 
 ```
  var puny = require('punycode');
@@ -248,6 +244,10 @@ ES5的正则表达式对于unicode的支持是有限的。
 [“JavaScript, Regex, and Unicode” by Steven Levithan](http://blog.stevenlevithan.com/archives/javascript-regex-and-unicode)
 
 
+## **TODO**
 
-
+**TODO: 分析一下具体的编码策略，比如UTF-16，在计算机里是怎么存储的，怎么容错的。**
+**TODO: study punnycode**
+**TODO: 写一份punnycode的使用说明**
+**leading surrogate 和 trailing surrogate**
 
