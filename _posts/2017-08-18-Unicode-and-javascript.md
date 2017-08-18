@@ -247,7 +247,11 @@ ES5的正则表达式对于unicode的支持是有限的。
 ## **TODO**
 
 **TODO: 分析一下具体的编码策略，比如UTF-16，在计算机里是怎么存储的，怎么容错的。**
+
 **TODO: study punnycode**
+
 **TODO: 写一份punnycode的使用说明**
+
 **leading surrogate 和 trailing surrogate**
+
 
