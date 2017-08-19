@@ -7,7 +7,7 @@ published: true
 origin: http://blog.stevenlevithan.com/archives/javascript-regex-and-unicode
 ---
 
-  > 原文 :  [Unicode and JavaScript]({{page.origin}})
+  > 原文 :  [javascript,regex,Unicodt]({{page.origin}})
 
 并不是所有的转义字符集和js的正则表达式都能匹配Unicode字符。
 有时候，确切的知道一个注意字符集匹配哪些东西很重要，这篇文章将会展开来讲一讲。
