@@ -10,6 +10,7 @@
 - [ ] [multifactor-authentication-in-your-react-apps](https://scotch.io/tutorials/multifactor-authentication-in-your-react-apps?utm_source=reactnl&utm_medium=medium)
 - [ ] [usage of common npm pakages](https://github.com/briefy/notes/issues/9)
 
+- [ ] [总结一下键盘事件以及中文输入](http://www.cnblogs.com/leolai/archive/2012/08/01/2618386.html)
 
 
 ### Useful commands
