@@ -9,8 +9,8 @@ This post will use a example to demonstrate the geometry of DOM elements and put
 
 ## TODO: use d3 to graph the geometry data below
 
-
 snippet of get the scrollbar size
+
 ```ts
 function getScrollBarSize() {
     let size = 0;
@@ -50,9 +50,10 @@ function getScrollBarSize() {
 ```
 
 ### Open the console to examine the log result of DOM geometry.
+
 dimentions are
 
-```
+```js
   client offset scroll
   width  height top left
 ```

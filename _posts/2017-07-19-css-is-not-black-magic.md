@@ -8,7 +8,7 @@ origin: https://medium.freecodecamp.org/its-not-dark-magic-pulling-back-the-curt
 ---
 > 原文 :  [CSS Isn’t Black Magic]({{page.origin}})
 
-#// TODO
+# // TODO
 
 作为一个前端开发者，你肯定会时不时的要和CSS打交道。
 也许当你第一次接触到CSS的时候，感觉它很清爽，这里用CSS来加一个边框，哪里用CSS来改个颜色。
@@ -30,8 +30,8 @@ CSS缺陷的修复，我的这篇文章主要将精力集中在进阶的浏览�
 和渲染的。
 
 ## DOM 和 CSSOM
+
 首先，浏览器包含一个JS引擎和一个渲染引擎。我们现在只讨论渲染引擎。
 我们会讨论一些基于Webkit、Blink、Gecko、Triden/Edge的特性。
 浏览器会进行一系列的操作，包括**转换**、**划分词法单元**、**词法分析**、**语法解析**，
 最后生成DOM和CSSOM
-

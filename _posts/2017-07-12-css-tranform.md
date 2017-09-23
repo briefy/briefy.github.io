@@ -24,4 +24,5 @@ Here is an example, if we add the following style on an element
 ```css
    transform: scale(0.5,0.5) translate(700px);
 ```
+
 you will not see a `700px` position translation,it will be `350px`,because we have been scaled down the element size to be half of the `document flow size`

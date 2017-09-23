@@ -20,8 +20,6 @@ default value:
 50% 50% 0 /* percent is about the non-scaled size,so as to say dom-flow size */
 ```
 
-
-
 About was the basic usage, and we have to notice that `transform-origin`
 can be animated, so we can take advantage of `transform-origin` to indicate
 the trend of a movement direction of an element.
@@ -52,7 +50,7 @@ example below:
          25% {
            transform-origin: 0% 100%;
            transform: scale(0.5,0.5);
-         } 
+         }
          50% {
            transform-origin: 50% 50%;
            transform: scale(0.5,0.5);
