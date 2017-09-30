@@ -4,8 +4,11 @@ title:  "构造器注入和setter注入"
 date:   2017-09-30 10:13:22 +0800
 categories:  design-pattern trans chinese
 published: true
+origin: http://misko.hevery.com/2009/02/19/constructor-injection-vs-setter-injection/
 ---
 # 构造器注入和setter注入
+
+  > 原文 :  [Constructor Injection vs. Setter Injection]({{page.origin}})
 
 关于依赖注入目前有两大阵营
 
