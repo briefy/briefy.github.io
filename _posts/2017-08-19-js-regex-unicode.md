@@ -16,7 +16,8 @@ origin: http://blog.stevenlevithan.com/archives/javascript-regex-and-unicode
  `\d`, `\D`, `\w`, `\W`, `\b`, 和 `\B`都是基于ASCII的。
 
 看下面例子：
-```
+
+```ts
  /a\b/.test('naïve')
  // true
 ```
@@ -45,34 +46,34 @@ origin: http://blog.stevenlevithan.com/archives/javascript-regex-and-unicode
 * `\u2029`  段落分隔符
 
 CRLF(\r\n) 通常都是被当成独立的换行符
-```
+
+```ts
 /\r^$\n/m.test("\r\n");
 // true
 ```
 
-`\u0009` — Tab — \t
-`\u000a` — Line feed — \n — (newline character)
-`\u000b` — Vertical tab — \v
-`\u000c` — Form feed — \f
-`\u000d` — Carriage return — \r — (newline character)
-`\u0020` — Space
-`\u00a0` — No-break space(可以使用js来指定这种space)
-`\u1680` — Ogham space mark
-`\u180e` — Mongolian vowel separator
-`\u2000` — En quad
-`\u2001` — Em quad
-`\u2002` — En space
-`\u2003` — Em space
-`\u2004` — Three-per-em space
-`\u2005` — Four-per-em space
-`\u2006` — Six-per-em space
-`\u2007` — Figure space
-`\u2008` — Punctuation space
-`\u2009` — Thin space
-`\u200a` — Hair space
-`\u2028` — Line separator — (newline character)
-`\u2029` — Paragraph separator — (newline character)
-`\u202f` — Narrow no-break space
-`\u205f` — Medium mathematical space
-`\u3000` — Ideographic space
-
+* `\u0009` — Tab — \t
+* `\u000a` — Line feed — \n — (newline character)
+* `\u000b` — Vertical tab — \v
+* `\u000c` — Form feed — \f
+* `\u000d` — Carriage return — \r — (newline character)
+* `\u0020` — Space
+* `\u00a0` — No-break space(可以使用js来指定这种space)
+* `\u1680` — Ogham space mark
+* `\u180e` — Mongolian vowel separator
+* `\u2000` — En quad
+* `\u2001` — Em quad
+* `\u2002` — En space
+* `\u2003` — Em space
+* `\u2004` — Three-per-em space
+* `\u2005` — Four-per-em space
+* `\u2006` — Six-per-em space
+* `\u2007` — Figure space
+* `\u2008` — Punctuation space
+* `\u2009` — Thin space
+* `\u200a` — Hair space
+* `\u2028` — Line separator — (newline character)
+* `\u2029` — Paragraph separator — (newline character)
+* `\u202f` — Narrow no-break space
+* `\u205f` — Medium mathematical space
+* `\u3000` — Ideographic space

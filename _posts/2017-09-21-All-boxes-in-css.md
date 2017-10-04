@@ -36,18 +36,20 @@ The three properties that affect box generation and layout — 'display', 'posit
 | others                                   | same as specified |
 
 ## terms
-  - initial containing block
-  - containing block
-  - block formatting context
-  - inline formatting context
-  - block-level element
-  - inline-level element
-  - block container
-  - block boxes
-  - line-box
+
+- initial containing block
+- containing block
+- block formatting context
+- inline formatting context
+- block-level element
+- inline-level element
+- block container
+- block boxes
+- line-box
 
 
 ## resource
+
 - [Block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
 - [All about the containing block](https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block)
 - [Understanding Block Formatting Contexts in CSS](https://www.sitepoint.com/understanding-block-formatting-contexts-in-css/)

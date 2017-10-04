@@ -5,7 +5,6 @@ date:   2017-07-20 10:39:50 +0800ea
 categories: stack-ctx css english
 published: true
 ---
-# stacking context
 
 ## Stacking only in the root context
 
@@ -28,19 +27,18 @@ A stacking context is formed, anywhere in the document, by any element in the fo
 - Element with a `opacity` value **less than** 1 (See the specification for opacity).
 - Element with a `mix-blend-mode` value **other than** `normal`.
 - Element with any of the following properties with value **other than** `none`:
-   - transform
-   - filter
-   - perspective
-   - clip-path
-   - mask / mask-image / mask-border
+  - transform
+  - filter
+  - perspective
+  - clip-path
+  - mask / mask-image / mask-border
 - Element with a `isolation` value `isolate`.
 - Element with a `-webkit-overflow-scrolling` value `touch`.
 - Element with a `will-change` value specifying any property that would create a stacking context on non-initial value (see this post).
 
 ## related CSS properties
 
-**z-index**<br/>
-**isolation**<br/>
-**mix-blend-mode**<br/>
-**background-blend-mode**<br/>
-
+**z-index**
+**isolation**
+**mix-blend-mode**
+**background-blend-mode**
