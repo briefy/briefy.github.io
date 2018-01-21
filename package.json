@@ -1,20 +1,20 @@
 {
-  "name": "briefy.github.io",
+  "name": "briefys",
   "version": "1.0.0",
-  "description": "briefy's blog site",
+  "description": "blog frontend life",
   "main": "index.js",
   "scripts": {
-    "start": "bundle exec jekyll serve --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/briefy/briefy.github.io.git"
   },
   "keywords": [
+    "gatsyby",
     "blog",
-    "briefy",
-    "fe",
-    "front-end"
+    "frontend",
+    "briefy"
   ],
   "author": "briefy",
   "license": "ISC",
