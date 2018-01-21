@@ -1,18 +1,5 @@
 ### To be done
 - [ ] add web analytics
-
-### Blog to be done
-- [ ] [microdata](http://diveinto.html5doctor.com/extensibility.html)
-- [ ] regular expression
-- [ ] [keep translating the usage of chrome here](https://developers.google.com/web/updates/2017/04/devtools-release-notes)
-- [ ] [translate this](http://2ality.com/2016/10/rest-spread-properties.html#spread-defines-properties-objectassign-sets-them)
-- [ ] [Handling Events in React 101](https://appendto.com/2017/01/react-events-101/)
-- [ ] [multifactor-authentication-in-your-react-apps](https://scotch.io/tutorials/multifactor-authentication-in-your-react-apps?utm_source=reactnl&utm_medium=medium)
-- [ ] [usage of common npm pakages](https://github.com/briefy/notes/issues/9)
-
-- [ ] [总结一下键盘事件以及中文输入](http://www.cnblogs.com/leolai/archive/2012/08/01/2618386.html)
-
-
 ### Useful commands
 Site is build on Ubuntu 16.04.
 
