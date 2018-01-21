@@ -37,6 +37,7 @@ published: true
 
 - [ ] [常用npm包的总结分析](https://github.com/briefy/notes/issues/9)
 - [ ] [键盘事件以及中文输入分析总结](http://www.cnblogs.com/leolai/archive/2012/08/01/2618386.html)
+- [ ] 用Swagger JSON Schema 模型为 API 客户端自动生成 TypeScript 接口
 
 ### case study
 
