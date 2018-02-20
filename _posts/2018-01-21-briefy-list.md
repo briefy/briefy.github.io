@@ -39,6 +39,7 @@ published: true
 - [ ] [键盘事件以及中文输入分析总结](http://www.cnblogs.com/leolai/archive/2012/08/01/2618386.html)
 - [ ] 用Swagger JSON Schema 模型为 API 客户端自动生成 TypeScript 接口
 - [ ] 思考如何取设计一款产品，从产品的角度利用技术
+- [ ] 用C(或者rust)、java、js分别实现 koa 的middleware
 
 ### case study
 
