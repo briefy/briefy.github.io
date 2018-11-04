@@ -22,8 +22,8 @@ jobs:
       - attach_worksapce:
         # Must be absolute path or relative path from working_directory
         at: my_workspace
-      - run:  |
-        if [[ $(cat my_workspace/echo-output) == "Trying out workspace" ]]; then
+      - run:  >
+        if [[ $(cat my_workspace/echo-output) == "Trying out workspace" ]] then
           echo "It worked";
         else
           echo "Nope!";
